@@ -1,0 +1,25 @@
+.container {
+    width: 600px;
+    height: 500px;
+    margin: auto;
+    text-align: center;
+}
+
+h1 {
+    margin: 50px 0;
+}
+
+input {
+    border: 2px solid blue;
+    border-radius: 10px;
+    margin: 0 8px;
+}
+
+button {
+    margin: 40px 0;
+    background-color: rgb(26, 26, 27);
+    padding: 10px;
+    color: white;
+    border: 2px solid blue;
+    border-radius: 10px;
+}

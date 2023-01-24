@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tip Calculato</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Tip <span>calculator</span></h1>
+        <div>
+            <form class= "calform" action="#">
+                <div class="row">
+                    <div class="col-25">
+                        <label for="billAmount">Bill Amount</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="billAmount">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="percentTip">Percentage Tip</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="percentTip">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="tipAmount">Tip Amount</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="tipAmount">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="total">Total</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="total">
+                    </div>
+                </div>
+                <button class="btn" onclick="calTip();">calculate</button>
+            </form>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+.container {
+    width: 400px;
+    margin: auto;
+    background-color: rgb(29, 199, 246);
+    padding: 20px;
+}
+
+body {
+    font-family: Tahoma;
+}
+
+h1 {
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: flex;
+    margin: auto;
+    margin-top: 30px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    color: red;
+    background-color: grey;
+}
+
+.col-25 {
+    width: 35%;
+}
+
+.col-75>input {
+    left: 60px;
+    border-radius: 10px;
+}
